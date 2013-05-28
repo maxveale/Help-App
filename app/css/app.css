@@ -1,11 +1,27 @@
-.icon
+@font-face
 {
-	width: 100%;	
+font-family: "Proxima Nova";
+src: url(fonts/ProximaNova-Bold.otf);
 }
+
+@font-face
+{
+font-family: ProximaNovaSemiBold;
+src: url(fonts/ProximaNova-SemiBold.otf);
+}
+
+div.ui-content
+{
+	font-family: "Proxima Nova";
+	font-variant: normal;
+	text-shadow: none;
+	
+}
+
 
 .green
 {
-	background-color: #b6ba42;
+	background-color: #b6d449;
 	margin-bottom: 15px;
 }
 .red
@@ -16,6 +32,11 @@
 .green, .red
 {
 	width: 100%;
+	padding-top: 10px;
+}
+
+.ui-bar
+{
 	height: 200px;
 }
 
@@ -26,32 +47,40 @@
 	float: right;
 }
 
-.icon
+
+.green img, .red img
 {
-	width: 50%;
-	height: 100%;
-	float: left;
-}
-.icon img
-{
-	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
 }
 
-.ui-header .ui-title {
-
+a
+{
+	text-decoration: none;
 }
 
 .green h2, .red h2
 {
 	margin: 0px;
 	padding: 0px;
-	float: right;
 	padding: 10px;
-	max-width: 150px;
 	font-size: 20px;
 	color: black;
 	margin-top: auto;
-	font-size: 20px;
+	font-size: 35px;
+	overflow: ;
+	text-align: center;
+}
+
+.red h2
+{
+	color: #a6a8ab;
+}
+.green h2
+{
+	color: #929497;
 }
 
 .logo, .heading_call
@@ -67,6 +96,20 @@ h1.ui-title
 {
 	text-align: right;
 }
+
+.uitroepteken
+{
+	text-align: center;
+	font-size: 150px;
+	line-height: 0px;
+	
+}
+i
+{
+	margin-right: 5px;
+}
+
+
 
 
 

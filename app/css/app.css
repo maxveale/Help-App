@@ -109,7 +109,31 @@ i
 	margin-right: 5px;
 }
 
+.ui-collapsible-inset .ui-collapsible-heading{
+	border-radius: 0px;
+}
 
+.ui-btn-up-b{
+	border:1px solid #black;
+	background:#929497;
+	text-shadow:0 1px 0 #727272;
+}
+.ui-btn-hover-b
+{
+	border:1px solid #black;
+	background:#727272;
+	font-weight:700;
+	color:#fff;
+	text-shadow:0 1px 0 #727272;
+}
 
+.ui-btn-down-b
+{
+	border:1px solid #225377;
+	background:#494949;
+	font-weight:700;
+	color:#fff;
+	text-shadow:0 1px 0 #727272;
+}
 
 

@@ -1,28 +1,30 @@
 @font-face
 {
-font-family: "Proxima Nova";
-src: url(fonts/ProximaNova-Bold.otf);
+font-family: 'Proxima Nova';
+src: url(fonts/ProximaNova-Bold.otf) format('opentype');
+font-weight: normal;
+   font-style: normal;
 }
 
 @font-face
 {
-font-family: ProximaNovaSemiBold;
-src: url(fonts/ProximaNova-SemiBold.otf);
+font-family: 'Proxima Nova';
+src: url(fonts/ProximaNova-SemiBold.otf) format('opentype');
+font-weight: normal;
+   font-style: normal;
 }
 
 div.ui-content
 {
-	font-family: "Proxima Nova";
+	font-family: 'Proxima Nova';
 	font-variant: normal;
 	text-shadow: none;
-	
+	padding: 0;
 }
-
 
 .green
 {
 	background-color: #b6d449;
-	margin-bottom: 15px;
 }
 .red
 {
@@ -53,7 +55,7 @@ div.ui-content
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 200px;
+	height: 132px;
 }
 
 a

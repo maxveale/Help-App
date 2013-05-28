@@ -16,7 +16,7 @@ font-weight: normal;
 
 div.ui-content
 {
-	font-family: 'Proxima Nova';
+	font-family: 'Open Sans', sans-serif;
 	font-variant: normal;
 	text-shadow: none;
 	padding: 0;
@@ -68,10 +68,9 @@ a
 	margin: 0px;
 	padding: 0px;
 	padding: 10px;
-	font-size: 20px;
 	color: black;
 	margin-top: auto;
-	font-size: 35px;
+	font-size: 25px;
 	overflow: ;
 	text-align: center;
 }

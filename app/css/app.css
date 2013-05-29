@@ -137,4 +137,14 @@ i
 	text-shadow:0 1px 0 #727272;
 }
 
+.disclaimer
+{
+	background-color: #b6d449;
+	height: 480px;
+}
+.disclaimer a
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
 

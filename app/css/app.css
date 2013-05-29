@@ -55,12 +55,17 @@ div.ui-content
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 132px;
+	height: 145px;
 }
 
 a
 {
 	text-decoration: none;
+}
+.knop
+{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .green h2, .red h2
@@ -140,11 +145,12 @@ i
 .disclaimer
 {
 	background-color: #b6d449;
-	height: 480px;
+	
 }
-.disclaimer a
+.disclaimer a, .disclaimer p
 {
 	margin-left: 20px;
 	margin-right: 20px;
+	text-align: center;
 }
 

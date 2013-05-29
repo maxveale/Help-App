@@ -154,3 +154,6 @@ i
 	text-align: center;
 }
 
+p.small {
+	font-size: 13px;
+}
